@@ -10,4 +10,5 @@ RUN touch /var/run/nginx.pid && \
  echo "welcome to bakr site" > /var/www/bakro/index.html
  
 USER $userid
+CMD while true;do echo "i am in container ";done
 
